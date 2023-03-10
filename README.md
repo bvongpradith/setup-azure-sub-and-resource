@@ -68,47 +68,47 @@ We will finally start configuring our resource group. You will most likely only 
 <br />
 
 <p>
-<img src="https://i.imgur.com/RH8d7Yt.png"/>
+<img src="https://i.imgur.com/eFktQsX.png"/>
 </p>
 <p>
-On this page you can assign tags to the resource group. Skip this as you don't have to assign any tags, but this is just for organizations to keep track of data pertaining to certain resources. Hit the "Next : Review + create >" button.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/FIyOpk5.png"/>
-</p>
-<p>
-On this page just make sure the information about the resource group is correct and hit create.
+On this page you can assign tags to the resource group. Skip this as you don't have to assign any tags, but this is just for organizations to keep track of data pertaining to certain resources. Hit the "Next : Review + create >" button. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/UqDWIKU.png"/>
+<img src="https://i.imgur.com/dVpUMK1.png"/>
 </p>
 <p>
-Go back to the resource groups page and make sure the new resource group is there, you can get back to the page by searching for it again in the searchbar. Next we are going to test out this new resource group by adding an Azure Storage Account (it is basically like a robust google drive or dropbox).
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/NFs2IEf.png"/>
-</p>
-<p>
-Search for storage accounts in the searchbar and click on it in the services section, it should be the first item in the search result. Once you get to the page, hit the blue "create storage account" button.
+This last page will be where you confirm everything is correct and press "Create" on the bottom left to finalize the creation of the resource group.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/dLDQe5a.png"/>
+<img src="https://i.imgur.com/Qw9ntW7.png"/>
 </p>
 <p>
-Now select the subscription and resource group we just made in the first two drop down menus. Then create the name for your storage account, it needs to be globally unique. Now hit the blue review button in the bottom left, you might need to wait a minute for it to run final validation and then hit create!
+We will now check to see if the resource group that we created is active by going back to the Resource Group page by typing it into the search bar once again. Next we will be testing the resource group by creating a Azure Storage Account which is like a Google Drive or iCloud for apple.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/PutNYrh.png"/>
+<img src="https://i.imgur.com/Cbd7gtY.png"/>
+</p>
+<p>
+Create a storage account by typing "Storage Account" in the search bar and pressing the button in the service section. Once there, press the "Create storage account" button.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Jv1Znq8.png"/>
+</p>
+<p>
+Next we will make sure the subscription and resource group is selected to the one we just created. If not, select it by pressing the drop down menu for both. From there, you'll need to make a unique name for the account and confirm that the account is in the same region as your resource group. You will then hit the blue review button on the bottom left to run the validation. Lastly, you will hit create. 
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/bQPFBBf.png"/>
 </p>
 <p>
 Wait for it to complete deployment and hit "Go to resource".
@@ -116,7 +116,7 @@ Wait for it to complete deployment and hit "Go to resource".
 <br />
 
 <p>
-<img src="https://i.imgur.com/hvoA7vJ.png"/>
+<img src="https://imgur.com/BHbAhHg.png"/>
 </p>
 <p>
 Once you are in the storage account, click on containers.
@@ -124,7 +124,7 @@ Once you are in the storage account, click on containers.
 <br />
 
 <p>
-<img src="https://i.imgur.com/fxeNC54.png"/>
+<img src="https://imgur.com/CMQKtQu.png"/>
 </p>
 <p>
 Now create a new container, name it, and hit create.
@@ -132,7 +132,7 @@ Now create a new container, name it, and hit create.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DYJvYB6.png"/>
+<img src="https://imgur.com/3pl9aY3.png"/>
 </p>
 <p>
 Now click on the new container you just made, and we are going to upload a basic text file into the container.
@@ -140,7 +140,7 @@ Now click on the new container you just made, and we are going to upload a basic
 <br />
 
 <p>
-<img src="https://i.imgur.com/ysuSi5q.jpg"/>
+<img src="https://imgur.com/w7sOZVz.png"/>
 </p>
 <p>
 Just make a new text document on your desktop, then name it and write what ever you want in it.
@@ -148,7 +148,7 @@ Just make a new text document on your desktop, then name it and write what ever 
 <br />
 
 <p>
-<img src="https://i.imgur.com/ZuQHKzS.png"/>
+<img src="https://i.imgur.com/1nutBNY.png"/>
 </p>
 <p>
 Click the upload button and you can just drag and drop the file from your desktop or you can search for it in file explorer, and then upload it!
@@ -156,7 +156,7 @@ Click the upload button and you can just drag and drop the file from your deskto
 <br />
 
 <p>
-<img src="https://i.imgur.com/vwQkCp3.png"/>
+<img src="https://i.imgur.com/TIOrw9I.png"/>
 </p>
 <p>
 Now that you have uploaded the file, you can edit, download it to your computer, or do whatever you want with it.
@@ -166,12 +166,12 @@ Now that you have uploaded the file, you can edit, download it to your computer,
 <p>
 </p>
 <p>
-That just about concludes this tutorial/lab, for the final step we are now going to just delete the resource group entirely to ensure that we don't incur any cost. You can redo this tutorial/lab as many times as you'd like until you feel that you've got it down!
+That is the last step of creating a storage account. Now we will delete the resource group to make sure you don't incur a charge. Once deleted you will need to remake the resource group, but you can do this as many times as you like to practice.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/ZttsXKR.png"/>
+<img src="https://i.imgur.com/TZXjAuP.png"/>
 </p>
 <p>
 To delete the resource group, just go back to the resource groups page, click on the resource group, click delete resource group, and type/copy paste the resource group's name to confirm, and then click delete.
